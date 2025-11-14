@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Webogram Clone — Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <div id="app">
+    <!-- App shell -->
+    <aside id="sidebar"></aside>
+    <main id="main"></main>
+    <aside id="rightpane"></aside>
+  </div>
+
+  <!-- templates: views will also be fetched but having these helps first paint -->
+  <template id="tpl-loading">
+    <div class="loading">Loading…</div>
+  </template>
+
+  <script src="api_dummy.js"></script>
+  <script src="router.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
